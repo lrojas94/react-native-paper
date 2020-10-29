@@ -9,7 +9,9 @@ import {
 } from 'react-native';
 import TextInputOutlined from './TextInputOutlined';
 import TextInputFlat from './TextInputFlat';
-import TextInputIcon, { Props as TextInputIconProps } from './Adornment/TextInputIcon';
+import TextInputIcon, {
+  Props as TextInputIconProps,
+} from './Adornment/TextInputIcon';
 import TextInputAffix, {
   Props as TextInputAffixProps,
 } from './Adornment/TextInputAffix';
