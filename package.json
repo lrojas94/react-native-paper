@@ -6,7 +6,7 @@
   "module": "lib/module/index.js",
   "react-native": "lib/module/index.js",
   "source": "src/index.tsx",
-  "types": "lib/typescript/src/index.d.ts",
+  "types": "lib/typescript/index.d.ts",
   "files": [
     "src",
     "lib",
@@ -33,7 +33,7 @@
     "bootstrap"
   ],
   "scripts": {
-    "typescript": "tsc --noEmit",
+    "typescript": "tsc --noEmit && tsc --project example --noEmit",
     "lint": "eslint --ext '.js,.ts,.tsx' .",
     "test": "jest",
     "prepare": "bob build && node ./scripts/generate-mappings.js",
